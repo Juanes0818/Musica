@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/background_light">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="center"
+        android:layout_marginBottom="35.4dp">
+        <ImageView
+            android:src="@drawable/libre"
+            android:layout_width="match_parent"
+            android:layout_height="215.5dp"
+            android:id="@+id/imageView1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:gravity="center"
+        android:layout_marginTop="30.0dp">
+        <Button
+            android:text="EMPEZAR"
+            android:layout_width="wrap_content"
+            android:layout_height="63.0dp"
+            android:id="@+id/button1"
+            app:backgroundTint="#FF0000"
+            android:textSize="25dp"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+
+</LinearLayout>
